@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(90, 2, 68);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10vw 0px 10vw;
+    align-items: center;
+    height: 10vh;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seccion1{
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(68, 0, 75);
+}
+.video{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+.texto{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 10px 0px 0px;
+}
+.texto h2{
+    font-size: 55px;
+    margin-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.seccion2{
+    background-color: rgb(2, 2, 97);
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+.contenedorSeccion2 h2{
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.contenedorSeccion2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -88px 0px -40px 0px;
+}
+.contenedorSeccion2 div img{
+    border-radius: 360px;
+}
+.contenedorSeccion2 ul{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top:60px;
+    margin-bottom: -400vh;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedorSeccion2 ul button{
+    background-color: rgb(90, 2, 68) ;
+    height: 100px;
+    width:450px;
+    border-radius: 60px;
+    margin: -160px 40px -40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(2, 2, 97);
+    font-family: cursive;
+    border: none;
+    border: 3px  rgb(35, 0, 39) solid;
+    text-align: center;
+}
+.contenedorSeccion2 ul button:hover{
+    background-color: rgb(21, 0, 26);
+    cursor: pointer;
+    color: rgb(68, 1, 51);
+    border: rgb(68, 1, 51) solid 3px;
+}
